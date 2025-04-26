@@ -10,10 +10,10 @@ const Contact = () => {
 
     // The keys mentioned here will remain live until task evaluation only!!
     emailjs.sendForm(
-      'service_u43203k',  
-      'template_ioj2mg8',
+      'service_u43203k',  // Service key
+      'template_ioj2mg8', // Template key
       form.current,
-      '5CJS2jr8j5Zugkjvt'
+      '5CJS2jr8j5Zugkjvt' // Public key
     ).then(
       (result) => {
         alert("Message sent successfully!");

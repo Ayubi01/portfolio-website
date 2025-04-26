@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+Note : The portfolio website you are seeing does not contain all the correct details as it is made for assingment purpose only.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tech Stack: React.js, JS, Tailwindcss
 
-## Available Scripts
+Others: AOS, Email.js
 
-In the project directory, you can run:
+Instruction for running the website:
 
-### `npm start`
+1. Clone Repository on the desired platform.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Hit these commands for downloading required packages: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   npm install
+   npm install -D tailwindcss3 postcss3 autoprefixer3
+   npm install @emailjs/browser
+   npm install aos
+   npm install react-icons
 
-### `npm test`
+3. Setting up the Email service:
+   
+   The webpage uses a service name EmailJS which can handle task such as replying through email.
+   
+   -> Go to https://www.emailjs.com/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   -> Create account
 
-### `npm run build`
+   -> Create an email service, template, and note your:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   -> Service ID
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   -> Template ID
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   -> Public Key
 
-### `npm run eject`
+   You can take help from document -> https://www.emailjs.com/docs/tutorial/overview/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   These keys are to be used in src/components/contact.js
+   
+4. After this you can run the app easily  you need to just hit the command :
+   
+   npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   And go to the provided address and you can easily use it.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Here is the working version of this site, it will remain active for few days only as the keys are public right now and it will be removed after assesment.
+   
+   Go check site at -> https://portfolio-website-eight-mocha-94.vercel.app/
+  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
