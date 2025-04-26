@@ -10,10 +10,10 @@ import { useEffect } from 'react';
 
 function App() {
 
-  // 🔄 Initialize AOS on component mount
+  // Initializes AOS on component mount
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration (in milliseconds)
+      duration: 1000,
       once: true,     // Only animate once when scrolling
     });
   }, []);

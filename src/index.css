@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(var(--float-height)); }
+    100% { transform: translateY(0px); }
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .float-h1 { --float-height: -4px; }
+  .float-h2 { --float-height: -6px; }
+  .float-h3 { --float-height: -8px; }
+  .float-h4 { --float-height: -10px; }
+  .float-h5 { --float-height: -12px; }
+  

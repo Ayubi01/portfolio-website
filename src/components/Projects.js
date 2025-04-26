@@ -1,26 +1,26 @@
-// src/components/Projects.js
+
 import React from 'react';
 
 const projects = [
   {
     title: "Spam Email Detector",
     description: "A Chrome extension that classifies emails as spam using a Flask backend and ML model.",
-    link: "https://github.com/ayush-bisht/spam-email-detector"
+    link: "https://github.com/Ayubi01/Spam-Email-Classifier"
   },
   {
-    title: "Deepfake Detection System",
-    description: "A video analysis tool to detect deepfakes using PyTorch and face detection.",
-    link: "https://github.com/ayush-bisht/deepfake-detector"
+    title: "Big News Post",
+    description: "A web app which provides you with instant news conttent and templates for post creation.",
+    link: "https://github.com/Ayubi01/Big-News-Post"
   },
   {
     title: "Price The Car",
     description: "ML model that predicts used car prices with an interactive UI.",
-    link: "https://github.com/ayush-bisht/price-the-car"
+    link: "https://github.com/Ayubi01/Price-The-Car"
   },
   {
     title: "Game Mania",
     description: "Console-based gaming platform featuring multiple games built from scratch.",
-    link: "https://github.com/ayush-bisht/game-mania"
+    link: "https://github.com/Ayubi01/Game-_Mania"
   },
 ];
 
