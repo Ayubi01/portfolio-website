@@ -8,9 +8,9 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // The keys mentioned here will remain live until assignment evaluation only!!
+    // The keys mentioned here will remain live until task evaluation only!!
     emailjs.sendForm(
-      'service_u43203k', 
+      'service_u43203k',  
       'template_ioj2mg8',
       form.current,
       '5CJS2jr8j5Zugkjvt'
